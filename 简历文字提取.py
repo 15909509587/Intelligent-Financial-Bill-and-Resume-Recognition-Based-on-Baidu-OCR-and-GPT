@@ -7,8 +7,8 @@ import os
 
 
 # 替换为您的百度API密钥和密钥
-baidu_api_key = 'your_client_id'
-baidu_secret_key = 'your_client_secret'
+baidu_api_key = 'DejdpDlYntFdyzzFGeNqDDIJ'
+baidu_secret_key = '3wzNVSx5ZeQYHXQTFQH4aZUBZDnvQPOV'
 
 def get_baidu_access_token(api_key, secret_key):
     url = f'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id={api_key}&client_secret={secret_key}'
